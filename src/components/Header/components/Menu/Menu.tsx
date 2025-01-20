@@ -1,4 +1,6 @@
-import {menuTabs} from "../../../../constants/menuTabs.js";
+import React from "react";
+
+import {menuTabs} from "../../../../constants/menuTabs";
 
 import "./style.scss"
 

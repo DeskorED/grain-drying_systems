@@ -1,0 +1,1 @@
+export {CatalogueItem} from './CatalogueItem.tsx';

@@ -1,0 +1,9 @@
+.catalogue-container {
+  padding: 15px;
+
+  .catalogue {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+}
