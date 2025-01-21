@@ -1,6 +1,9 @@
 import React from "react";
 
-import {MainPage} from "../pages/MainPage";
+import { RouterProvider } from "react-router-dom";
+import { DryerStoreRouter } from "../router/Router.tsx";
+
+import {Header} from "../components/Header";
 
 import './App.scss'
 
@@ -8,7 +11,8 @@ export const App = () => {
 
   return (
     <div className="app-container">
-          <MainPage />
+            <Header/>
+          <RouterProvider router={DryerStoreRouter}/>
     </div>
   )
 }

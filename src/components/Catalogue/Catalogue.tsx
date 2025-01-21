@@ -13,7 +13,8 @@ export const Catalogue = () => {
             <h1>Каталог продукции</h1>
             <div className="catalogue">
                 {
-                    dryers.map(dryer => <CatalogueItem key={dryer.name} catalogueItem={dryer} />)
+                    Object.entries(dryers).map(([id, dryer]) => <CatalogueItem key={id}
+                                                                                    catalogueItem={dryer}/>)
                 }
             </div>
         </div>
