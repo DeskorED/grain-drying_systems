@@ -1,0 +1,1 @@
+export {CompanyInfoBlock} from "./CompanyInfoBlock.tsx"

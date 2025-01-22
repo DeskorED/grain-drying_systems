@@ -1,0 +1,35 @@
+.features-container{
+  h2 {
+    width: fit-content;
+    padding: 10px;
+    color: white;
+    text-shadow: 1px 1px .14em #336699, 0 0 .14em #00c8b6, 0 0 .14em #012c71;
+    font-size: 30px;
+  }
+
+  .features {
+    color: #333333;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    text-align: justify;
+
+    .features__item {
+      background-color: #FFFFFFFF;
+      transition-duration: 1s;
+      box-shadow: 0 0 0 0 black;
+      margin-bottom: 30px;
+      width: 28%;
+      font-size: 17px;
+      border: solid .5px black;
+      border-radius: 25px;
+      padding: 15px;
+
+      h3 {
+        text-align: center;
+        margin: 5px 0 5px 0
+      }
+
+    }
+  }
+}

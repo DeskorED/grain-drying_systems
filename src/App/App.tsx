@@ -11,8 +11,8 @@ export const App = () => {
 
   return (
     <div className="app-container">
-            <Header/>
-          <RouterProvider router={DryerStoreRouter}/>
+        <Header/>
+        <RouterProvider router={DryerStoreRouter}/>
     </div>
   )
 }

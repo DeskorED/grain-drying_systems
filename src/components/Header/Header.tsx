@@ -10,8 +10,8 @@ export const Header = () => {
         <div className="header-container">
             <div className="header">
                 <Title/>
-                <Menu/>
-                <hr/>
+                {/*<Menu/>*/}
+                {/*<hr/>*/}
             </div>
         </div>
     )
