@@ -15,15 +15,22 @@
     text-align: justify;
 
     .features__item {
-      background-color: #FFFFFFFF;
       transition-duration: 1s;
       box-shadow: 0 0 0 0 black;
       margin-bottom: 30px;
       width: 28%;
-      font-size: 17px;
+      font-size: 18px;
       border: solid .5px black;
       border-radius: 25px;
       padding: 15px;
+
+      .features__item-logo{
+        display: flex;
+        justify-content: center;
+        img{
+          width: 20%;
+        }
+      }
 
       h3 {
         text-align: center;

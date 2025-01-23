@@ -1,0 +1,12 @@
+.company-info-block__container{
+  height: 70vh;
+  background: url("/assets/background-images/background-image.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+
+  .company-info-block{
+    height: 100%;
+    backdrop-filter: invert(15%);
+  }
+}
