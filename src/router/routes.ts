@@ -1,6 +1,6 @@
 export const routes = {
-    Main: "/",
+    Main: "/grain-drying_systems",
     CurrentDryerPage(DryerName : string) {
-        return `/${DryerName}`
+        return `/grain-drying_systems/${DryerName}`
     }
 }
