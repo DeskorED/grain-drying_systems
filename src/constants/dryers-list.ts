@@ -1,5 +1,6 @@
 export const dryers = {
     "mini": {
+        photo:"dryer-photo1.jpg",
         id: "mini",
         name: "Mini",
         productivity: "4-8 т/год",
@@ -10,6 +11,7 @@ export const dryers = {
         sensors: { temperature: 5, humidity: 2 }
     },
     "mks-10": {
+        photo:"dryer-photo1.jpg",
         id: "mks-10",
         name: "МКС-10",
         productivity: "8-12 т/год",
@@ -20,6 +22,7 @@ export const dryers = {
         sensors: { temperature: 5, humidity: 2 }
     },
     "mks-16": {
+        photo:"dryer-photo1.jpg",
         id: "mks-16",
         name: "МКС-16",
         productivity: "12-18 т/год",
@@ -30,6 +33,7 @@ export const dryers = {
         sensors: { temperature: 5, humidity: 2 }
     },
     "mks-20": {
+        photo:"dryer-photo1.jpg",
         id: "mks-20",
         name: "МКС-20",
         productivity: "18-24 т/год",
@@ -40,6 +44,7 @@ export const dryers = {
         sensors: { temperature: 6, humidity: 2 }
     },
     "mks-26": {
+        photo:"dryer-photo1.jpg",
         id: "mks-26",
         name: "МКС-26",
         productivity: "24-30 т/год",
@@ -50,6 +55,7 @@ export const dryers = {
         sensors: { temperature: 8, humidity: 2 }
     },
     "mks-30": {
+        photo:"dryer-photo1.jpg",
         id: "mks-30",
         name: "МКС-30",
         productivity: "30-35 т/год",
