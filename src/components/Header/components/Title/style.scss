@@ -3,15 +3,11 @@
 .title {
   height: 150px;
   position: relative;
-  text-align: center;
   display: flex;
-  justify-content: center;
+  justify-content: left;
   align-items: center;
 
   .title-logo {
-    left: 0;
-    top: 0;
-    position: absolute;
     height: 100%;
     aspect-ratio: 1/1;
 
@@ -22,7 +18,12 @@
   }
 
   .title-text {
+    flex-grow: 1;
+    margin-left: 2%;
     font-family: 'Lexend Giga', serif;
-    font-size: 56px;
+    font-size: 40px;
+  }
+  .title-text-description{
+    text-align: right;
   }
 }
