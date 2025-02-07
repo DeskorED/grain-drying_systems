@@ -1,12 +1,40 @@
 .company-info-block__container{
-  height: 70vh;
+  height: 75vh;
   background: url("/assets/background-images/background-image.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
 
   .company-info-block{
-    height: 100%;
-    backdrop-filter: invert(15%);
+    min-height: 85%;
+    background: rgba(255, 255, 255, 0.5);
+    align-content: center;
+    text-align: center;
+
+    .company-info-block__header{
+      font-family: Impact, Arial;
+      color: #434343;
+      font-size: 60px;
+      font-weight: 400;
+    }
+
+    .company-info-block__text{
+      font-family: Roboto, Arial;
+      color: #ff9900;
+      font-size: 40px;
+      font-weight: 700;
+    }
+  }
+
+  .company-main-info{
+    height: 15%;
+    background: #ffd54f;
+    text-align: center;
+    align-content: center;
+
+    font-family: Roboto, Arial;
+    color: #1b1307;
+    font-size: 30px;
+    font-weight: 700;
   }
 }
