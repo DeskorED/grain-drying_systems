@@ -10,8 +10,9 @@ export const MainPage = () => {
     return (
         <div className="main-page">
             <CompanyInfoBlock/>
-            <Catalogue/>
             <Features/>
+            <Catalogue/>
+
         </div>
     )
 }

@@ -1,40 +1,103 @@
-.company-info-block__container{
-  height: 75vh;
-  background: url("/assets/background-images/background-image.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
+.company-info-block__container {
+  .company-info-block {
+    background: url("/assets/background-images/background-image.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 
-  .company-info-block{
-    min-height: 85%;
-    background: rgba(255, 255, 255, 0.5);
-    align-content: center;
-    text-align: center;
+    .company-info-block__filter {
+      background: rgba(255, 255, 255, 0.5);
+      height: 75vh;
+      align-content: center;
+      text-align: center;
 
-    .company-info-block__header{
-      font-family: Impact, Arial;
-      color: #434343;
-      font-size: 60px;
-      font-weight: 400;
-    }
+      .company-info-block__header {
+        font-family: Impact, Arial;
+        color: #434343;
+        font-size: 60px;
+        font-weight: 400;
+      }
 
-    .company-info-block__text{
-      font-family: Roboto, Arial;
-      color: #ff9900;
-      font-size: 40px;
-      font-weight: 700;
+      .company-info-block__text {
+        font-family: Roboto, Arial;
+        color: #ff9900;
+        font-size: 40px;
+        font-weight: 700;
+      }
     }
   }
 
-  .company-main-info{
-    height: 15%;
+  .company-main-info-container {
     background: #ffd54f;
-    text-align: center;
-    align-content: center;
 
-    font-family: Roboto, Arial;
-    color: #1b1307;
-    font-size: 30px;
-    font-weight: 700;
+    .company-main-info {
+      margin: 0 auto;
+      width: 60%;
+      height: 15%;
+      text-align: center;
+      align-content: center;
+
+      font-family: Roboto, Arial;
+      color: #1b1307;
+      font-size: 30px;
+      font-weight: 700;
+
+      .company-main-info_header {
+        cursor: pointer;
+        position: relative;
+        display: flex;
+        justify-content: center;
+
+        .company-main-info_header-button {
+          transition: 1s;
+          position: absolute;
+          right: 0;
+          top: 30%;
+          border-radius: 50%;
+
+          .arrow{
+            position: relative;
+            width: 50px;
+            aspect-ratio: 1/1;
+            padding-top: 1.5%;
+            align-content: center;
+
+            &::before{
+              position: absolute;
+              top: 28%;
+              right: 33%;
+              display: block;
+              width: 15px;
+              height: 15px;
+              content:'';
+              border-bottom: 2px solid black;
+              border-right: 2px solid black;
+              transform: rotate(45deg);
+            }
+          }
+
+          &:hover {
+            background-color: rgba(128, 128, 128, 0.65);
+          }
+        }
+      }
+
+      .company-main-info_details {
+        transition-duration: 0.4s;
+        height: 0;
+        text-align: justify;
+
+        ul {
+          font-size: 0%;
+
+          li {
+            font-weight: 150;
+            margin-left: 2.5%;
+            margin-bottom: 1%;
+            width: 90%;
+          }
+        }
+      }
+    }
   }
 }
